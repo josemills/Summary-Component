@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk' ,sans-serif;
+}
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+}
+.container{
+    display: flex;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 32px;
+}
+
+.left-info{
+    width: 368px;
+    height: 512px;
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    background: linear-gradient(to bottom, #7755ff ,#6943ff ,#2f2ce9);
+}
+
+
+.result-info h2{
+    display: flexbox;
+    color: #CAC9FF ;
+    margin: 35px 400px 400px;   
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result-info h3{
+    color: white;
+    margin: -380px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.result-info p{
+    font-size: 18px;
+    color: #CAC9FF ;
+    margin: 390px 0;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+ .circle-info{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    flex-direction: center;
+    border-radius: 50%;
+    margin: -360px 400px 400px;
+}
+
+.circle-info span{
+    display: flex;
+    text-align: center;
+    margin: 35px 65px 35px 65px; 
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+.circle-info p{
+    display: flex;
+    white-space: nowrap;
+    margin: 130px 40px 35px -130px;
+    color: #CAC9FF;
+    font-weight: bold;
+}
+
+.right-info{
+    float: right;
+    position: center;
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: white;
+}
+
+.summary-info h2{
+    text-align: left;
+    color: hsl(224, 30%, 27%);
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.reaction-score{
+    display: flex;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 95%);
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: fit-content;
+    width: 288px;
+    height: 56px;
+    padding: 15px 20px;
+}
+
+.reaction-score .number{
+    display: flex;
+    color: hsl(224, 30%, 27%);
+    margin-left: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.reaction-score .total{
+    display: flex;
+    color: #303B59;
+    white-space: nowrap;
+}
+
+.memory-score{
+    display: flex;
+    color:  hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%);
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: fit-content;
+    width: 288px;
+    height: 56px;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.memory-score .number{
+    display: flex;
+    color: hsl(224, 30%, 27%);
+    margin-left: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.memory-score .total{
+    display: flex;
+    color: #303B59;
+    white-space: nowrap;
+}
+
+.verbal-score{
+    display: flex;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 95%);
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: fit-content;
+    width: 288px;
+    height: 56px;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.verbal-score .number{
+    display: flex;
+    color: hsl(224, 30%, 27%);
+    margin-left: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.verbal-score .total{
+    display: flex;
+    color: #303B59;
+    white-space: nowrap;
+}
+
+.visual-score{
+    display: flex;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 95%);
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: fit-content;
+    width: 288px;
+    height: 56px;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.visual-score .number{
+    display: flex;
+    color: hsl(224, 30%, 27%);
+    margin-left: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.visual-score .total{
+    display: flex;
+    color: #303B59;
+    white-space: nowrap;
+}
+
+.custom-button{
+    display: inline-block;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 288px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
